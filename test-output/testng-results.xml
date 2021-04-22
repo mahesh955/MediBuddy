@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="11" total="12" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-04-19T11:09:42 IST" name="Default suite" finished-at="2021-04-19T11:12:38 IST" duration-ms="175145">
+    <groups>
+    </groups>
+    <test started-at="2021-04-19T11:09:42 IST" name="Default test" finished-at="2021-04-19T11:12:38 IST" duration-ms="175145">
+      <class name="com.Login.Tests.Createconsultation">
+        <test-method is-config="true" signature="htmlReportGenaration()[pri:0, instance:com.Login.Tests.Createconsultation@1e683a3e]" started-at="2021-04-19T11:09:42 IST" name="htmlReportGenaration" finished-at="2021-04-19T11:09:42 IST" duration-ms="605" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- htmlReportGenaration -->
+        <test-method is-config="true" signature="launch()[pri:0, instance:com.Login.Tests.Createconsultation@1e683a3e]" started-at="2021-04-19T11:09:42 IST" name="launch" finished-at="2021-04-19T11:10:04 IST" duration-ms="21270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="VerifyselectingYesforimageuploadflowtest(java.util.HashMap)[pri:0, instance:com.Login.Tests.Createconsultation@1e683a3e]" started-at="2021-04-19T11:10:09 IST" name="VerifyselectingYesforimageuploadflowtest" data-provider="data_createconsulatrion" finished-at="2021-04-19T11:12:35 IST" duration-ms="145301" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Test Case Name=Verify if user is able to create a consultation, headerValue1=Select your health problem, symptomsdescriptionskin=xyz, symptomsdescription=I am suffering from high fever and skin rashes since 2 days. I took dolo-650, but it didn't help. Please suggest medicines or tests that are required., headerValue=Enter Patient Details, entertext=2days}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyselectingYesforimageuploadflowtest -->
+        <test-method is-config="true" signature="listener(org.testng.ITestResult)[pri:0, instance:com.Login.Tests.Createconsultation@1e683a3e]" started-at="2021-04-19T11:12:35 IST" name="listener" finished-at="2021-04-19T11:12:36 IST" duration-ms="1715" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyselectingYesforimageuploadflowtest status=SUCCESS method=Createconsultation.VerifyselectingYesforimageuploadflowtest(java.util.HashMap)[pri:0, instance:com.Login.Tests.Createconsultation@1e683a3e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- listener -->
+        <test-method is-config="true" signature="htmlReportsClose()[pri:0, instance:com.Login.Tests.Createconsultation@1e683a3e]" started-at="2021-04-19T11:12:36 IST" name="htmlReportsClose" finished-at="2021-04-19T11:12:38 IST" duration-ms="1203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- htmlReportsClose -->
+      </class> <!-- com.Login.Tests.Createconsultation -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
