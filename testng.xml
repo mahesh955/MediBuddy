@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.Login.Tests.CreateThyroidTestRetailUser"/>
+      <class name="com.Login.Tests.CreateEarNoseThroat"/>
+      <class name="com.Login.Tests.CreateaccountpageTestCase"/>
+      <class name="com.Login.Tests.CreateSkinProblems"/>
+      <class name="com.Login.Tests.CreatePregnancyandPsychiatric"/>
+      <class name="com.Login.Tests.CorporateEmailLoginTestcase"/>
+      <class name="com.Login.Tests.AllConsultationTest"/>
+      <class name="com.Login.Tests.MymedicalrecordsTest"/>
+      <class name="com.Login.Tests.CreateDepressiontestCorporateUser"/>
+      <class name="com.Login.Tests.CreateGeneralPhysician"/>
+      <class name="com.Login.Tests.Createconsultation"/>
+      <class name="com.Login.Tests.CreateSelfTest"/>
+      <class name="com.Login.Tests.CreateThyroidTestCorporateUser"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
